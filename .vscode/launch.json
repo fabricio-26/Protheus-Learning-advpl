@@ -1,0 +1,33 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "Depuração do idioma TOTVS",
+			"program": "${command:AskForProgramName}",
+			"cwb": "${workspaceFolder}",
+			"smartclientBin": "C:\\TOTVS\\ERP\\Protheus\\bin\\smartclient\\smartclient.exe",
+			"isMultiSession": true,
+			"enableTableSync": true
+		}
+	],
+	"lastPrograms": [
+		{
+			"label": "SIGAADV"
+		},
+		{
+			"label": "SIGAMDI"
+		},
+		{
+			"label": "SIGACOM"
+		},
+		{
+			"label": "U_AULA3011"
+		},
+		{
+			"label": "U_AULA30111"
+		}
+	],
+	"lastProgramExecuted": "U_AULA30111"
+}
